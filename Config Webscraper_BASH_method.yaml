@@ -1,0 +1,19 @@
+directory_data:
+  data_directory: /workspace/webscraping/data
+  root_directory: /workspace/webscraping
+
+website_data:
+  url_to_scrape: http://dap.ceda.ac.uk/thredds/fileServer/catalog/neodc/modis/data/
+  collection: /collection6
+  user: jlewis005
+  password: GYP--980n # eBYhWdi - 0
+  dap_base_url: http://dap.ceda.ac.uk
+  data_base_url: http://data.ceda.ac.uk
+  auth_tkt: \"ab08c77d35928df334e1ce6781f04e8c5e847839jlewis005
+  cookie: ceda.session.2=807e74fa28188fb1e212991f168469daba2bb0724de480b9faf6342d78b7c2007cccc805bb0a4bd3bf0ec767cb376fc0-20a4d69a30e0f6b4a752df32e472bf4d-2a50ab135173f3e4d3d9fcb878ce1649c9fdd808d889a3f8cd9b84119c4f4cf4; ceda.session.1=f9f37f4f0121a4bb5b599e3beb77529b74663c7e60ed9f82d24ba5ad554288c7-d3ea7e8b348a0c9e5d319fcb8c1a21f1-4c83252e4e594bcd3f3f92e10e215a96b78f3e8f1722cf73da3053491f9cc9a1;
+
+data_to_retrieve:
+  product_list: ['MOD11A2', 'MOD13A2', 'MCD43A3']
+  tile_list: ['h17v02', 'h17v03', 'h17v04', 'h18v03']
+
+
